@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  margin-top: 20px;
+  font-size: larger;
+}
+.conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  line-height: 50px;
+}
+
+.result {
+  height: 15rem;
+  width: 15rem;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 5px;
+}
+.btn {
+  padding: 5px;
+  font-weight: 700;
+  background-color: green;
+  color: white;
+}
